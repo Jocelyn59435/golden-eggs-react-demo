@@ -10,7 +10,7 @@ import CaseStudy from './components/caseStudy';
 import Articles from './components/articles';
 import Contacts from './components/contacts';
 import Footer from './components/footer';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
