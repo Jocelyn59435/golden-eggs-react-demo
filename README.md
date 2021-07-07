@@ -4,9 +4,9 @@
 - Development: React, TypeScript, Express
 - Deployment: Heroku
 - Currently there are three pages available:
-  &emsp;Homepage: https://golden-eggs-demo.herokuapp.com/#/
-  &emsp;Client Feedback: https://golden-eggs-demo.herokuapp.com/#/aboutus
-  &emsp;Contacts: https://golden-eggs-demo.herokuapp.com/#/contact-us
+  --- Homepage: https://golden-eggs-demo.herokuapp.com/#/
+  --- Client Feedback: https://golden-eggs-demo.herokuapp.com/#/aboutus
+  --- Contacts: https://golden-eggs-demo.herokuapp.com/#/contact-us
 
 ## npm scripts
 
