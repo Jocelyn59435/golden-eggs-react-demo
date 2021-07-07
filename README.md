@@ -4,9 +4,9 @@
 - Development: React, TypeScript, Express
 - Deployment: Heroku
 - Currently there are three pages available:
-  [Homepage](https://golden-eggs-demo.herokuapp.com/#/)
-  [Client Feedback](https://golden-eggs-demo.herokuapp.com/#/aboutus)
-  [Contacts](https://golden-eggs-demo.herokuapp.com/#/contact-us)
+  [Homepage](https://golden-eggs-demo.herokuapp.com)
+  [Client Feedback](https://golden-eggs-demo.herokuapp.com/aboutus)
+  [Contacts](https://golden-eggs-demo.herokuapp.com/contact-us)
 
 ## npm scripts
 
@@ -18,5 +18,4 @@
 
 According to [this tutorial](https://www.educative.io/edpresso/how-to-deploy-react-app-to-heroku),
 this application is served by Node.js, and here is the [source code](https://github.com/Jocelyn59435/golden-eggs-react-demo-backend)
-For Heroku I use HashRouter rather than BrowserRouter to fix client-side routing.
-With AWS S3 bucket, BrowserRouter is fine, and here is the [link](http://golden-eggs-react-demo.s3-website-us-east-1.amazonaws.com)
+Here is another deployment with [AWS S3 bucket](http://golden-eggs-react-demo.s3-website-us-east-1.amazonaws.com)
