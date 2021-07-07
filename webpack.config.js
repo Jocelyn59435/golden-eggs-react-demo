@@ -26,6 +26,7 @@ module.exports = {
       template: 'app/index.html',
     }),
     new CopyPlugin([{ from: '_redirects' }]),
+    new CopyPlugin([{ from: 'assets', to: 'assets' }]),
   ],
   devServer: {
     historyApiFallback: true,

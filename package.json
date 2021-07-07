@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "SET NODE_ENV='production' && webpack"
+    "build": "SET NODE_ENV='production' && webpack",
+    "lint": "eslint . --ext .tsx",
+    "lint-and-fix": "eslint . --ext .tsx --fix"
   },
   "babel": {
     "presets": [
@@ -42,7 +44,7 @@
     "@typescript-eslint/parser": "^4.28.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "copy-webpack-plugin": "^5.0.3",
+    "copy-webpack-plugin": "^5.1.2",
     "css-loader": "^3.1.0",
     "eslint": "^7.30.0",
     "eslint-plugin-react": "^7.24.0",

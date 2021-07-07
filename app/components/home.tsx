@@ -52,7 +52,7 @@ export default function Home(): JSX.Element {
         <div>
           <img src='../../assets/goldegg.png' alt='golden-egg-image' />
           <span>
-            <a>Client Feedback</a>
+            <a href='/aboutus'>Client Feedback</a>
           </span>
         </div>
       </div>
